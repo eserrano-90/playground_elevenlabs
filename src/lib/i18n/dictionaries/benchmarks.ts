@@ -1,0 +1,88 @@
+const en = {
+  title: "Benchmarks",
+  description: "Compare LLM × TTS model × voice variants on response complexity, latency and cost per minute.",
+  newBenchmark: "New benchmark",
+  step: (n: number) => `Step ${n}`,
+  variantsCreated: (n: number) => `${n} created`,
+  scenariosCreated: (n: number) => `${n} created`,
+  ready: "Ready",
+  needsSetup: "Needs variants and scenarios",
+  steps: {
+    variants: { title: "Create variants", description: "Combine an LLM, a TTS model and a voice." },
+    scenarios: { title: "Write scenarios", description: "System prompt, first message and a simulated user." },
+    benchmark: { title: "Run a benchmark", description: "Review the cost estimate, then compare the results." },
+  },
+  emptyTitle: "No benchmarks yet",
+  emptyReady: "You have variants and scenarios. Start your first benchmark.",
+  emptyNotReady: "Set up at least one variant and one scenario to get started.",
+  createVariant: "Create a variant",
+  writeScenario: "Write a scenario",
+  columns: {
+    name: "Name",
+    status: "Status",
+    progress: "Progress",
+    estimatedCost: "Estimated cost",
+    created: "Created",
+  },
+  failedCount: (n: number) => `${n} failed`,
+};
+
+const es: typeof en = {
+  title: "Benchmarks",
+  description: "Compara variantes de LLM × modelo TTS × voz por complejidad de respuesta, latencia y coste por minuto.",
+  newBenchmark: "Nuevo benchmark",
+  step: (n) => `Paso ${n}`,
+  variantsCreated: (n) => (n === 1 ? "1 creada" : `${n} creadas`),
+  scenariosCreated: (n) => (n === 1 ? "1 creado" : `${n} creados`),
+  ready: "Listo",
+  needsSetup: "Necesita variantes y escenarios",
+  steps: {
+    variants: { title: "Crea variantes", description: "Combina un LLM, un modelo TTS y una voz." },
+    scenarios: { title: "Escribe escenarios", description: "Prompt de sistema, primer mensaje y un usuario simulado." },
+    benchmark: { title: "Lanza un benchmark", description: "Revisa la estimación de coste y compara los resultados." },
+  },
+  emptyTitle: "Aún no hay benchmarks",
+  emptyReady: "Ya tienes variantes y escenarios. Lanza tu primer benchmark.",
+  emptyNotReady: "Configura al menos una variante y un escenario para empezar.",
+  createVariant: "Crear una variante",
+  writeScenario: "Escribir un escenario",
+  columns: {
+    name: "Nombre",
+    status: "Estado",
+    progress: "Progreso",
+    estimatedCost: "Coste estimado",
+    created: "Creado",
+  },
+  failedCount: (n) => (n === 1 ? "1 fallida" : `${n} fallidas`),
+};
+
+const fr: typeof en = {
+  title: "Benchmarks",
+  description: "Comparez des variantes LLM × modèle TTS × voix selon la complexité des réponses, la latence et le coût par minute.",
+  newBenchmark: "Nouveau benchmark",
+  step: (n) => `Étape ${n}`,
+  variantsCreated: (n) => (n === 1 ? "1 créée" : `${n} créées`),
+  scenariosCreated: (n) => (n === 1 ? "1 créé" : `${n} créés`),
+  ready: "Prêt",
+  needsSetup: "Nécessite des variantes et des scénarios",
+  steps: {
+    variants: { title: "Créer des variantes", description: "Combinez un LLM, un modèle TTS et une voix." },
+    scenarios: { title: "Écrire des scénarios", description: "Prompt système, premier message et un utilisateur simulé." },
+    benchmark: { title: "Lancer un benchmark", description: "Vérifiez l'estimation du coût, puis comparez les résultats." },
+  },
+  emptyTitle: "Aucun benchmark pour l'instant",
+  emptyReady: "Vous avez des variantes et des scénarios. Lancez votre premier benchmark.",
+  emptyNotReady: "Configurez au moins une variante et un scénario pour commencer.",
+  createVariant: "Créer une variante",
+  writeScenario: "Écrire un scénario",
+  columns: {
+    name: "Nom",
+    status: "Statut",
+    progress: "Progression",
+    estimatedCost: "Coût estimé",
+    created: "Créé",
+  },
+  failedCount: (n) => (n === 1 ? "1 échouée" : `${n} échouées`),
+};
+
+export const benchmarks = { en, es, fr };

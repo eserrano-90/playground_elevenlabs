@@ -1,0 +1,319 @@
+{
+  "updatedAt": "2026-09-29",
+  "note": "Reference values. LLM $/M tokens derived from ElevenLabs /v1/convai/llm-usage/calculate on 2026-09-29 (ElevenLabs-hosted model prices are approximate). Verify against https://elevenlabs.io/pricing and your plan before trusting cost estimates.",
+  "usdPerCredit": 0.00022,
+  "plan": "creator",
+  "agentUsdPerMinuteByPlan": {
+    "creator": 0.1,
+    "pro": 0.1,
+    "scale": 0.1,
+    "business": 0.08
+  },
+  "speechRateByTtsModel": {
+    "eleven_v4": 14,
+    "eleven_v4_turbo": 15,
+    "eleven_v3_conversational": 13,
+    "eleven_multilingual_v2": 14,
+    "eleven_flash_v2_5": 15,
+    "eleven_turbo_v2_5": 15,
+    "eleven_flash_v2": 15,
+    "eleven_turbo_v2": 15,
+    "default": 15
+  },
+  "llms": [
+    {
+      "id": "gpt-4o-mini",
+      "label": "GPT-4o mini",
+      "provider": "openai",
+      "input": 0.15,
+      "output": 0.6
+    },
+    {
+      "id": "gpt-4o",
+      "label": "GPT-4o",
+      "provider": "openai",
+      "input": 2.5,
+      "output": 10.0
+    },
+    {
+      "id": "gpt-4",
+      "label": "GPT-4",
+      "provider": "openai",
+      "input": 30.0,
+      "output": 60.0
+    },
+    {
+      "id": "gpt-4.1",
+      "label": "GPT-4.1",
+      "provider": "openai",
+      "input": 2.0,
+      "output": 8.0
+    },
+    {
+      "id": "gpt-4.1-mini",
+      "label": "GPT-4.1 mini",
+      "provider": "openai",
+      "input": 0.4,
+      "output": 1.6
+    },
+    {
+      "id": "gpt-4.1-nano",
+      "label": "GPT-4.1 nano",
+      "provider": "openai",
+      "input": 0.1,
+      "output": 0.4
+    },
+    {
+      "id": "gpt-5",
+      "label": "GPT-5",
+      "provider": "openai",
+      "input": 1.25,
+      "output": 10.0
+    },
+    {
+      "id": "gpt-5.1",
+      "label": "GPT-5.1",
+      "provider": "openai",
+      "input": 1.25,
+      "output": 10.0
+    },
+    {
+      "id": "gpt-5.2",
+      "label": "GPT-5.2",
+      "provider": "openai",
+      "input": 1.75,
+      "output": 14.0
+    },
+    {
+      "id": "gpt-5.4",
+      "label": "GPT-5.4",
+      "provider": "openai",
+      "input": 2.5,
+      "output": 15.0
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "label": "GPT-5.4 mini",
+      "provider": "openai",
+      "input": 0.75,
+      "output": 4.5
+    },
+    {
+      "id": "gpt-5.4-nano",
+      "label": "GPT-5.4 nano",
+      "provider": "openai",
+      "input": 0.2,
+      "output": 1.25
+    },
+    {
+      "id": "gpt-5.5",
+      "label": "GPT-5.5",
+      "provider": "openai",
+      "input": 5.0,
+      "output": 30.0
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "label": "GPT-5.6 Sol",
+      "provider": "openai",
+      "input": 4.0,
+      "output": 20.0
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "label": "GPT-5.6 Terra",
+      "provider": "openai",
+      "input": 2.0,
+      "output": 12.0
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "label": "GPT-5.6 Luna",
+      "provider": "openai",
+      "input": 0.2,
+      "output": 1.2
+    },
+    {
+      "id": "gpt-6-astra",
+      "label": "GPT-6 Astra",
+      "provider": "openai",
+      "input": 10.0,
+      "output": 50.0
+    },
+    {
+      "id": "gpt-6-sol",
+      "label": "GPT-6 Sol",
+      "provider": "openai",
+      "input": 2.0,
+      "output": 10.0
+    },
+    {
+      "id": "gpt-6-luna",
+      "label": "GPT-6 Luna",
+      "provider": "openai",
+      "input": 0.1,
+      "output": 0.5
+    },
+    {
+      "id": "gpt-5-mini",
+      "label": "GPT-5 mini",
+      "provider": "openai",
+      "input": 0.25,
+      "output": 2.0
+    },
+    {
+      "id": "gpt-5-nano",
+      "label": "GPT-5 nano",
+      "provider": "openai",
+      "input": 0.05,
+      "output": 0.4
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "label": "Gemini 3 Flash Preview",
+      "provider": "google",
+      "input": 0.5,
+      "output": 3.0
+    },
+    {
+      "id": "gemini-3.1-pro-preview",
+      "label": "Gemini 3.1 Pro Preview",
+      "provider": "google",
+      "input": 2.0,
+      "output": 12.0
+    },
+    {
+      "id": "gemini-3.1-flash-lite",
+      "label": "Gemini 3.1 Flash Lite",
+      "provider": "google",
+      "input": 0.25,
+      "output": 1.5
+    },
+    {
+      "id": "gemini-3.5-flash",
+      "label": "Gemini 3.5 Flash",
+      "provider": "google",
+      "input": 1.5,
+      "output": 9.0
+    },
+    {
+      "id": "gemini-3.5-flash-lite",
+      "label": "Gemini 3.5 Flash Lite",
+      "provider": "google",
+      "input": 0.3,
+      "output": 2.5
+    },
+    {
+      "id": "gemini-3.6-flash",
+      "label": "Gemini 3.6 Flash",
+      "provider": "google",
+      "input": 0.75,
+      "output": 3.75
+    },
+    {
+      "id": "gemini-3.7-flash",
+      "label": "Gemini 3.7 Flash",
+      "provider": "google",
+      "input": 0.75,
+      "output": 3.75
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "label": "Gemini 3.8 Flash",
+      "provider": "google",
+      "input": 0.75,
+      "output": 3.75
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "label": "Claude Sonnet 4.5",
+      "provider": "anthropic",
+      "input": 3.0,
+      "output": 15.0
+    },
+    {
+      "id": "claude-opus-4-7",
+      "label": "Claude Opus 4.7",
+      "provider": "anthropic",
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
+      "id": "claude-opus-4-8",
+      "label": "Claude Opus 4.8",
+      "provider": "anthropic",
+      "input": 5.5,
+      "output": 27.5
+    },
+    {
+      "id": "claude-opus-5",
+      "label": "Claude Opus 5",
+      "provider": "anthropic",
+      "input": 5.0,
+      "output": 25.0
+    },
+    {
+      "id": "claude-opus-5-5",
+      "label": "Claude Opus 5.5",
+      "provider": "anthropic",
+      "input": 4.0,
+      "output": 20.0
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "label": "Claude Sonnet 4.6",
+      "provider": "anthropic",
+      "input": 3.0,
+      "output": 15.0
+    },
+    {
+      "id": "claude-sonnet-5",
+      "label": "Claude Sonnet 5",
+      "provider": "anthropic",
+      "input": 2.2,
+      "output": 11.0
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "label": "Claude Haiku 4.5",
+      "provider": "anthropic",
+      "input": 1.0,
+      "output": 5.0
+    },
+    {
+      "id": "qwen3-4b",
+      "label": "Qwen3 4B",
+      "provider": "elevenlabs-hosted",
+      "input": 0.24,
+      "output": 5.0
+    },
+    {
+      "id": "qwen36-35b-a3b",
+      "label": "Qwen3.6 35B A3B",
+      "provider": "elevenlabs-hosted",
+      "input": 0.13,
+      "output": 5.0
+    },
+    {
+      "id": "qwen35-397b-a17b",
+      "label": "Qwen3.5 397B A17B",
+      "provider": "elevenlabs-hosted",
+      "input": 0.63,
+      "output": 15.0
+    },
+    {
+      "id": "glm-52",
+      "label": "GLM 5.2",
+      "provider": "elevenlabs-hosted",
+      "input": 1.5,
+      "output": 30.0
+    },
+    {
+      "id": "deepseek-v41-flash",
+      "label": "DeepSeek V4.1 Flash",
+      "provider": "elevenlabs-hosted",
+      "input": 0.55,
+      "output": 15.0
+    }
+  ]
+}
